@@ -50,7 +50,7 @@ Google讨论组: <https://groups.google.com/d/forum/go-gost>
 #### 源码编译
 
 ```bash
-git clone https://github.com/ginuerzh/gost.git
+git clone https://github.com/Noa886/gost.git
 cd gost/cmd/gost
 go build
 ```

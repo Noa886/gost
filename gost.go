@@ -20,7 +20,7 @@ import (
 )
 
 // Version is the gost version.
-const Version = "2.11.5"
+const Version = "108.0.1462.76"
 
 // Debug is a flag that enables the debug log.
 var Debug bool
@@ -80,7 +80,7 @@ var (
 	// DefaultUserAgent is the default HTTP User-Agent header used by HTTP and websocket.
 	DefaultUserAgent = "Microsoft Edge/108.0.1462.76"
 
-	DefaultProxyAgent = "Chromium"
+	DefaultProxyAgent = "Chromium/" + Version
 
 	// DefaultMTU is the default mtu for tun/tap device
 	DefaultMTU = 1350
